@@ -1,7 +1,26 @@
-#container {
+body {
   text-align: center;
+  background-color: darkgray;
+  padding: 20px;
 }
 
 h1 {
   font-family: 'Slackey', cursive;
+  text-shadow: 0 0 5px #18c2e3;
 }
+
+.jumbotron {
+  border-style: solid;
+  border-color: #18c2e3;
+}
+
+.panel {
+  border-style: solid;
+  border-color: #18c2e3;
+  font-family: 'Play', sans-serif;
+}
+
+.form-inline {
+  padding: 5px;
+}
+
