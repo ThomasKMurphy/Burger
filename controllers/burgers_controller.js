@@ -13,7 +13,7 @@ router.get('/', function(request, response) {
 });
 
 router.post('/', function(request, response) {
-  burger.create(request.body.burger_name, function(result) {
+  burger.create(request.body.name, function(result) {
     console.log(result);
     response.redirect('/');
   })
