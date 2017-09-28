@@ -11,13 +11,13 @@ var burger = {
 
   update: function(id, cb) {
     orm.update('burgers', id, function(response) {
-      cd(response);
+      cb(response);
     })
   },
 
   create: function(name, cb) {
     orm.create('burgers', name, function(response) {
-      cd(response);
+      cb(response);
     })
   },
 
