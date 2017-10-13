@@ -2,10 +2,9 @@
 var mysql = require('mysql');
 
 var connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'Sector9',
-  database: 'burgers_db'
+	host: 'vhw3t8e71xdz9k14.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',	
+	user: 'ajbdn8jvxz4a4zq4',	
+	password: 'zjvduyms87vzoqiq',	
 });
 
 // Make connection
@@ -19,3 +18,9 @@ connection.connect(function(error) {
 
 // Export connection for ORM to use
 module.exports = connection;
+
+
+
+
+
+
